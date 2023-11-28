@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DirectoryFeelingActivity"/>
+        <activity android:name=".StartDiaryActivity"/>
+        <activity android:name=".MyDiaryActivity"/>
     </application>
 
 </manifest>
