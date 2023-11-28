@@ -24,6 +24,8 @@
         <activity android:name=".DirectoryFeelingActivity"/>
         <activity android:name=".StartDiaryActivity"/>
         <activity android:name=".MyDiaryActivity"/>
+        <activity android:name=".ListFeelsActivity"/>
+        <activity android:name=".ListStateActivity"/>
     </application>
 
 </manifest>

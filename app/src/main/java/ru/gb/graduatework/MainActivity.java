@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         buttonStartDiary.setOnClickListener(this::onClickBeganDirectory);
         buttonMyDiary=findViewById(R.id.button_my_diary);
         buttonMyDiary.setOnClickListener(this::onClickMyDirectory);
-
-
     }
 
     private void onClickDirectory(View view){
@@ -35,12 +33,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onClickBeganDirectory(View view){
-        Intent intent = new Intent(this,DirectoryFeelingActivity.class);
+        Intent intent = new Intent(this,StartDiaryActivity.class);
         startActivity(intent);
     }
 
     private void onClickMyDirectory(View view){
-        Intent intent = new Intent(this,DirectoryFeelingActivity.class);
+        Intent intent = new Intent(this,MyDiaryActivity.class);
         startActivity(intent);
     }
 }
