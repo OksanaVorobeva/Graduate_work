@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">GraduateWork</string>
+    <string-array name="list_feels">
+        <item >Стыд</item>
+        <item >Отвращение</item>
+        <item >Презрение</item>
+    </string-array>
+
+    <string-array name="shame">
+        <item>В стыде</item>
+        <item>Ты запачкался</item>
+        <item>Покраснение</item>
+        <item>"Что обо"</item>
+        <item>Желание</item>
+    </string-array>
+
+
 </resources>
