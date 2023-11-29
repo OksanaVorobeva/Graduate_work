@@ -4,6 +4,20 @@
         <item >Стыд</item>
         <item >Отвращение</item>
         <item >Презрение</item>
+        <item >Страх</item>
+        <item >Зависть</item>
+        <item >Ревность</item>
+        <item >Вина</item>
+        <item >Грусть/печаль</item>
+        <item >Тоска</item>
+        <item >Жалость</item>
+        <item >Удивление</item>
+        <item >Интерес</item>
+        <item >Гордость</item>
+        <item >Радость</item>
+        <item >Нежность</item>
+        <item >Благодарность</item>
+
     </string-array>
 
     <string-array name="shame">
