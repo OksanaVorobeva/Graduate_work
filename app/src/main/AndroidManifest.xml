@@ -27,6 +27,7 @@
         <activity android:name=".ListFeelsActivity"/>
         <activity android:name=".ListStateActivity"/>
         <activity android:name=".AboutFeelsActivity"/>
+        <activity android:name=".AboutStateActivity"/>
     </application>
 
 </manifest>

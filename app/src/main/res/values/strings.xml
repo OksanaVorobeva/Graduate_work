@@ -17,7 +17,14 @@
         <item >Радость</item>
         <item >Нежность</item>
         <item >Благодарность</item>
+    </string-array>
 
+    <string-array name="list_state">
+        <item>Стресс</item>
+        <item>Тревога</item>
+        <item>Одиночество</item>
+        <item>Скука</item>
+        <item>Любовь</item>
     </string-array>
 
     <string-array name="shame">
@@ -27,6 +34,8 @@
         <item>"Что обо"</item>
         <item>Желание</item>
     </string-array>
+
+
 
 
 </resources>
