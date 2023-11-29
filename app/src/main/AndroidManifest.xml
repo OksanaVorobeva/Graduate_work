@@ -28,6 +28,7 @@
         <activity android:name=".ListStateActivity"/>
         <activity android:name=".AboutFeelsActivity"/>
         <activity android:name=".AboutStateActivity"/>
+        <activity android:name=".TaskOneOneActivity"/>
     </application>
 
 </manifest>
