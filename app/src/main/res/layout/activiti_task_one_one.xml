@@ -1,9 +1,92 @@
-<LinearLayout android:gravity="center"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Чувство"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/list_feels"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ситуация из жизни"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Подруга не позвала\nменя с ней в кафе"
+            android:inputType="textMultiLine"
+            android:minLines="4"
+            android:id="@+id/hint_situation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Телесные ощущения"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ком в горле, подавленное состояние"
+            android:id="@+id/hint_sensation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мысли"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Как она могла! Это не справедливо"
+            android:id="@+id/hint_thoughts"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мысли"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="не "
+            android:id="@+id/hint_your_actions"/>
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Продолжить"
+        android:id="@+id/task_one_one_next_save"/>
+
+
 </LinearLayout>
