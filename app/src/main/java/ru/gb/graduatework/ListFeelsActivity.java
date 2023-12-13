@@ -7,11 +7,12 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ListFeelsActivity extends AppCompatActivity {
-    public static final String NUMBER_FEELS="number feels";
+    public static final String NAME_FEELS="name feels";
     ListView listView;
 
     @Override
@@ -26,7 +27,8 @@ public class ListFeelsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(ListFeelsActivity.this,AboutFeelsActivity.class);
-                intent.putExtra(NUMBER_FEELS,i);
+                String feels = ((TextView) view).getText().toString();
+                intent.putExtra(NAME_FEELS, feels);
                 startActivity(intent);
             }
         });

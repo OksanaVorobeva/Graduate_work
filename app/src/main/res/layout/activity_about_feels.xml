@@ -1,46 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center"
+<GridLayout android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:columnCount="2"
+    android:layout_gravity="center">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:text="Чувство"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
 
-        >
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Чувство"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Длинное описание чувства стыд на несколько строк в несколько предложений"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/about_feels_name"/>
 
-            android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пример\nситуации"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Пример ситуации"
-            android:layout_weight="1"/>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Телесные ощущения"
-            android:layout_weight="1"/>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Мысли"
-            android:layout_weight="1"/>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Поведение"
-            android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Длинное описание чувства стыд на несколько строк в несколько предложений"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/about_feels_example"/>
 
-    </LinearLayout>
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Телесные\nощущения"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Длинное описание чувства стыд на несколько строк в несколько предложений"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/about_feels_sensations"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мысли"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Длинное описание чувства стыд на несколько строк в несколько предложений"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/about_feels_thoughts"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поведение"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Длинное описание чувства стыд на несколько строк в несколько предложений"
+        android:textSize="18sp"
+        android:id="@+id/about_feels_behavior"/>
+
+</GridLayout>

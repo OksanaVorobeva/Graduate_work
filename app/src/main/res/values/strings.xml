@@ -27,13 +27,25 @@
         <item>Любовь</item>
     </string-array>
 
-    <string-array name="shame">
-        <item>В стыде</item>
-        <item>Ты запачкался</item>
-        <item>Покраснение</item>
-        <item>"Что обо"</item>
-        <item>Желание</item>
-    </string-array>
+    <string name="about_feels">
+        {
+          "Стыд": {
+            "name": "стыд",
+            "example": "пример_ситуации_стыда",
+            "sensations": "ощущения_при_стыде",
+            "thoughts": "мысли_при_стыде",
+            "behavior": "поведение_при_стыде"
+          },
+
+          "Стыд": {
+            "name": "стыд",
+            "example": "пример_ситуации_стыда",
+            "sensations": "ощущения_при_стыде",
+            "thoughts": "мысли_при_стыде",
+            "behavior": "поведение_при_стыде"
+          }
+        }
+    </string>
 
 
 
