@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".start.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 1.1 Мои чувства"/>
+
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

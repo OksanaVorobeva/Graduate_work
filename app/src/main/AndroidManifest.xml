@@ -30,6 +30,7 @@
         <activity android:name=".directory.AboutStateActivity"/>
         <activity android:name=".startDiary.TaskOneOneActivity"/>
         <activity android:name=".startDiary.TaskOneTwoActivity"/>
+        <activity android:name=".startDiary.TaskTwoActivity"/>
     </application>
 
 </manifest>
