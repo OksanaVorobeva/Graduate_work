@@ -1,8 +1,10 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.myDiary;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.gb.graduatework.R;
 
 public class MyDiaryActivity extends AppCompatActivity {
     @Override

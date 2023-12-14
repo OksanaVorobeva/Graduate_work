@@ -13,7 +13,7 @@
         android:theme="@style/Theme.GraduateWork"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".start.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,14 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DirectoryFeelingActivity"/>
-        <activity android:name=".StartDiaryActivity"/>
-        <activity android:name=".MyDiaryActivity"/>
-        <activity android:name=".ListFeelsActivity"/>
-        <activity android:name=".ListStateActivity"/>
-        <activity android:name=".AboutFeelsActivity"/>
-        <activity android:name=".AboutStateActivity"/>
-        <activity android:name=".TaskOneOneActivity"/>
+        <activity android:name=".directory.DirectoryFeelingActivity"/>
+        <activity android:name=".startDiary.StartDiaryActivity"/>
+        <activity android:name=".myDiary.MyDiaryActivity"/>
+        <activity android:name=".directory.ListFeelsActivity"/>
+        <activity android:name=".directory.ListStateActivity"/>
+        <activity android:name=".directory.AboutFeelsActivity"/>
+        <activity android:name=".directory.AboutStateActivity"/>
+        <activity android:name=".startDiary.TaskOneOneActivity"/>
+        <activity android:name=".startDiary.TaskOneTwoActivity"/>
     </application>
 
 </manifest>

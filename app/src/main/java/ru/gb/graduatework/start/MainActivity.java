@@ -1,4 +1,4 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.start;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import ru.gb.graduatework.directory.DirectoryFeelingActivity;
+import ru.gb.graduatework.myDiary.MyDiaryActivity;
+import ru.gb.graduatework.R;
+import ru.gb.graduatework.startDiary.StartDiaryActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,17 +33,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onClickDirectory(View view){
-        Intent intent = new Intent(this,DirectoryFeelingActivity.class);
+        Intent intent = new Intent(this, DirectoryFeelingActivity.class);
         startActivity(intent);
     }
 
     private void onClickBeganDirectory(View view){
-        Intent intent = new Intent(this,StartDiaryActivity.class);
+        Intent intent = new Intent(this, StartDiaryActivity.class);
         startActivity(intent);
     }
 
     private void onClickMyDirectory(View view){
-        Intent intent = new Intent(this,MyDiaryActivity.class);
+        Intent intent = new Intent(this, MyDiaryActivity.class);
         startActivity(intent);
     }
 }

@@ -1,10 +1,12 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.directory;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.gb.graduatework.R;
 
 public class AboutStateActivity extends AppCompatActivity {
     @Override

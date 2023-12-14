@@ -1,4 +1,4 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.startDiary;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.gb.graduatework.R;
 
 public class StartDiaryActivity extends AppCompatActivity {
 
@@ -27,7 +29,7 @@ public class StartDiaryActivity extends AppCompatActivity {
     }
 
     private void onClickContinueTaskOne(View view){
-        Intent intent = new Intent(this,TaskOneOneActivity.class);
+        Intent intent = new Intent(this, TaskOneOneActivity.class);
         startActivity(intent);
     }
 

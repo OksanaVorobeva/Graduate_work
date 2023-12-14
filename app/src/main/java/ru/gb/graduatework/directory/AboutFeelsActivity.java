@@ -1,8 +1,7 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.directory;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -10,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import ru.gb.graduatework.R;
 
 public class AboutFeelsActivity extends AppCompatActivity {
 

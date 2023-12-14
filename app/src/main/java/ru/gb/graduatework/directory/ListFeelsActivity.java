@@ -1,15 +1,16 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.directory;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.gb.graduatework.R;
 
 public class ListFeelsActivity extends AppCompatActivity {
     public static final String NAME_FEELS="name feels";

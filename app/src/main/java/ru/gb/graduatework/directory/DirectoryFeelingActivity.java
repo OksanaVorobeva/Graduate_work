@@ -1,4 +1,4 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.directory;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.List;
+import ru.gb.graduatework.R;
 
 public class DirectoryFeelingActivity extends AppCompatActivity {
 

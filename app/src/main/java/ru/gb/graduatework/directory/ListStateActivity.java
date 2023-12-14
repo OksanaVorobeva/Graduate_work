@@ -1,4 +1,4 @@
-package ru.gb.graduatework;
+package ru.gb.graduatework.directory;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.gb.graduatework.R;
 
 public class ListStateActivity extends AppCompatActivity {
 

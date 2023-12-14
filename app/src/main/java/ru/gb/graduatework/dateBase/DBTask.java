@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/*
 public class DBTask {
     private static final String DATABASE_NAME = "simple.db";
     private static final int DATABASE_VERSION = 1;
@@ -110,3 +111,4 @@ public class DBTask {
 }
 
 
+*/

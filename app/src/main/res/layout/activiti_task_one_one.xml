@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".start.MainActivity">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -69,17 +69,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Мысли"
+            android:text="Твои действия"
             android:textSize="18sp"
             android:layout_marginBottom="10dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="не "
+            android:hint="Не разговариваю с ней третий день, жду,когда эта коза сама приползет"
             android:id="@+id/hint_your_actions"/>
 
     </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Подсказка"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -87,6 +92,11 @@
         android:layout_gravity="right"
         android:text="Продолжить"
         android:id="@+id/task_one_one_next_save"/>
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Назад"
+        android:id="@+id/task_one_one_back_save"/>
 
 </LinearLayout>
