@@ -1,4 +1,4 @@
-package ru.gb.graduatework.startDiary;
+package ru.gb.graduatework.startDiary.taskTwo;
 
 import android.content.Intent;
 import android.os.Bundle;

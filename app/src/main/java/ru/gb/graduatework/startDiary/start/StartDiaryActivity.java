@@ -1,4 +1,4 @@
-package ru.gb.graduatework.startDiary;
+package ru.gb.graduatework.startDiary.start;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ru.gb.graduatework.R;
+import ru.gb.graduatework.startDiary.taskOne.TaskOneOneActivity;
 
 public class StartDiaryActivity extends AppCompatActivity {
 

@@ -10,7 +10,7 @@ import android.widget.Button;
 import ru.gb.graduatework.directory.DirectoryFeelingActivity;
 import ru.gb.graduatework.myDiary.MyDiaryActivity;
 import ru.gb.graduatework.R;
-import ru.gb.graduatework.startDiary.StartDiaryActivity;
+import ru.gb.graduatework.startDiary.start.StartDiaryActivity;
 
 public class MainActivity extends AppCompatActivity {
 

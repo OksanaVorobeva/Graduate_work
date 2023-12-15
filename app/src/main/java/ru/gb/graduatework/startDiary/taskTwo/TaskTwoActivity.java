@@ -1,16 +1,15 @@
-package ru.gb.graduatework.startDiary;
+package ru.gb.graduatework.startDiary.taskTwo;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.TaskStackBuilder;
 
 import ru.gb.graduatework.R;
+import ru.gb.graduatework.startDiary.taskOne.TaskOneTwoActivity;
 
 public class TaskTwoActivity extends AppCompatActivity {
 
@@ -36,7 +35,7 @@ public class TaskTwoActivity extends AppCompatActivity {
     }
 
     public void oneClickBackSave(View view){
-        Intent intent=new Intent(this,TaskOneTwoActivity.class);
+        Intent intent=new Intent(this, TaskOneTwoActivity.class);
         startActivity(intent);
     }
 }

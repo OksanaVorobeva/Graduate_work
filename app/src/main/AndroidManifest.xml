@@ -22,17 +22,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".directory.DirectoryFeelingActivity"/>
-        <activity android:name=".startDiary.StartDiaryActivity"/>
+        <activity android:name=".startDiary.start.StartDiaryActivity"/>
         <activity android:name=".myDiary.MyDiaryActivity"/>
         <activity android:name=".directory.ListFeelsActivity"/>
         <activity android:name=".directory.ListStateActivity"/>
         <activity android:name=".directory.AboutFeelsActivity"/>
         <activity android:name=".directory.AboutStateActivity"/>
-        <activity android:name=".startDiary.TaskOneOneActivity"/>
-        <activity android:name=".startDiary.TaskOneTwoActivity"/>
-        <activity android:name=".startDiary.TaskTwoActivity"/>
-        <activity android:name=".startDiary.TaskTwoOneActivity"/>
-        <activity android:name=".startDiary.TaskTwoTwoActivity"/>
+        <activity android:name=".startDiary.taskOne.TaskOneOneActivity"/>
+        <activity android:name=".startDiary.taskOne.TaskOneTwoActivity"/>
+        <activity android:name=".startDiary.taskTwo.TaskTwoActivity"/>
+        <activity android:name=".startDiary.taskTwo.TaskTwoOneActivity"/>
+        <activity android:name=".startDiary.taskTwo.TaskTwoTwoActivity"/>
+        <activity android:name=".startDiary.three.TaskTreeActivity"/>
     </application>
 
 </manifest>
