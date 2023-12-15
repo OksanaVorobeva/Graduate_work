@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".start.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 2.1 Мои мысли" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Описание задания" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Ситуация"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/hint_situation_task_two_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Мой парень весь день игнорит меня"
+            android:inputType="textMultiLine"
+            android:minLines="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Мои чувства"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/hint_feels_task_two_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Обида,досада"
+            android:inputType="textMultiLine"
+            android:minLines="4"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Мои мысли о других"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/my_thoughts_about_others_task_two_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Вот он говнюк,конечно! Мог бы и не игнорить"
+            android:inputType="textMultiLine"
+            android:minLines="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Мои мысли о себе"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/my_thoughts_about_myself_task_two_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Наверное ......."
+            android:inputType="textMultiLine"
+            android:minLines="4" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Текст"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Продолжить"
+        android:id="@+id/task_two_one_next_save"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Продолжить"
+        android:id="@+id/task_two_one_back_save"/>
+
+
+</LinearLayout>
