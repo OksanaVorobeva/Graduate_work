@@ -33,7 +33,8 @@
         <activity android:name=".startDiary.taskTwo.TaskTwoActivity"/>
         <activity android:name=".startDiary.taskTwo.TaskTwoOneActivity"/>
         <activity android:name=".startDiary.taskTwo.TaskTwoTwoActivity"/>
-        <activity android:name=".startDiary.three.TaskTreeActivity"/>
+        <activity android:name=".startDiary.three.TaskThreeActivity"/>
+        <activity android:name=".startDiary.three.TaskThreeOneActivity"/>
     </application>
 
 </manifest>
